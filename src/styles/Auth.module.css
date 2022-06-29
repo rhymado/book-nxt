@@ -1,0 +1,15 @@
+.title {
+  color: brown;
+}
+
+.big {
+  font-size: 4rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin: 2px auto;
+  gap: 5px;
+}

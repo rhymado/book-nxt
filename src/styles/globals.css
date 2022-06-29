@@ -11,6 +11,13 @@ a {
   text-decoration: none;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  text-decoration: underline;
 }
